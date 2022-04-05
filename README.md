@@ -7,5 +7,5 @@
 ### Here the final result:
 
 <p align="center">
-    ![Voila](images/bootstrapdesign.png)
+  <img src="images/bootstrapdesign.png" />
 </p>
