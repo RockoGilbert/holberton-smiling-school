@@ -6,7 +6,7 @@
 
 # Requirements
   * Web pages must switch to the tablet version when the screen is 768px.
-  *Web pages must switch to the mobile version when the screen width is 576px. 
+  * Web pages must switch to the mobile version when the screen width is 576px. 
   * button hover/active: opacity: 0.9
 ### Here the final result:
 
