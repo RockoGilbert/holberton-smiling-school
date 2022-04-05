@@ -2,7 +2,7 @@
 
 ## In this project, I implemented 3 web pages with Bootstrap. Used HTML/CSS/Accessibility/Responsive design/Bootstrap
 
-# Objective: Have fully functional web pages that look the same as the designer file.
+## Objective: Have fully functional web pages that look the same as the designer file.
 
 # Requirements
   * Web pages must switch to the tablet version when the screen is 768px.
