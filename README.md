@@ -5,4 +5,7 @@
 ## Objective: Have fully functional web pages that look the same as the designer file.
 
 ### Here the final result:
-![Voila](images/bootstrapdesign.png)
+
+<p align="center">
+    ![Voila](images/bootstrapdesign.png)
+</p>
