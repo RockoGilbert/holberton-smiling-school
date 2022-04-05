@@ -4,5 +4,5 @@
 
 ## Objective: Have fully functional web pages that look the same as the designer file.
 
-Here the final result:
+### Here the final result:
 ![Voila](images/bootstrapdesign.png)
