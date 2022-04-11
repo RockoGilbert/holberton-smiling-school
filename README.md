@@ -1,15 +1,17 @@
-# **0x01. Implement a design with bootstrap**
+# holberton-smiling-school
+![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.holbertonschool.com%2Fholberton-logo-simple.png&f=1&nofb=1)
 
-## In this project, I implemented 3 web pages with Bootstrap. Used HTML/CSS/Accessibility/Responsive design/Bootstrap
+# Contents:
+This repository contains three different web pages designed using HTML and Boostrap exclusively from a given figma board...
 
-## Objective: Have fully functional web pages that look the same as the designer file.
+Figma boards:
+* https://www.figma.com/file/ivg3abH1HLmMayBgjGg1Qf/Courses
+* https://www.figma.com/file/QYQqMYbdpAHL5xTclwJKSI/Homepage
+* https://www.figma.com/file/KLAI53jdYpfFNEy0O79ymB/Pricing
 
-# Requirements
-  * Web pages must switch to the tablet version when the screen is 768px.
-  * Web pages must switch to the mobile version when the screen width is 576px. 
-  * button hover/active: opacity: 0.9
-### Here the final result:
-
-<p align="center">
-  <img src="images/bootstrapdesign.png" />
-</p>
+## Files:
+* Each file here is built in section by section iterations each in there own file labeled with a 0-4 at the beginning
+* pricing.html iterations - final iteration doesnt have a number
+* homepage.html iterations - final iteration doesnt have a number
+* courses.html iterations  - final iteration doesnt have a number
+* styles.css - This is the css file that contains css for all three webpages that couldnt be covered by bootstrap
