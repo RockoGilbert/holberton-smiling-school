@@ -6,7 +6,7 @@ This repository contains three different web pages designed using HTML and Boost
 
 
 ## Here are the final results
-![Headphones](images/wireframe.jpg "Headphones")
+![alt text](http://urlhttps://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/3/3c71cc99d2fc1c12a3d3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220411%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220411T164240Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=95b967f093c1d187c3d4e991f30c7859ce2648ccba754c16c6b2d13ae5a9968d
 
 
 Figma boards:
