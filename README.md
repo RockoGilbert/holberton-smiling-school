@@ -7,9 +7,9 @@ This repository contains three different web pages designed using HTML and Boost
 
 
 Figma files used for the project:
-- [Homepage] (https://www.figma.com/file/ivg3abH1HLmMayBgjGg1Qf/Courses)
-- [Homepage] (https://www.figma.com/file/QYQqMYbdpAHL5xTclwJKSI/Homepage)
-- [Homepage] (https://www.figma.com/file/KLAI53jdYpfFNEy0O79ymB/Pricing)
+- [Courses](https://www.figma.com/file/ivg3abH1HLmMayBgjGg1Qf/Courses)
+- [Homepage](https://www.figma.com/file/QYQqMYbdpAHL5xTclwJKSI/Homepage)
+- [Pricing](https://www.figma.com/file/KLAI53jdYpfFNEy0O79ymB/Pricing)
 
 ## Files:
 * Each file here is built in section by section iterations each in there own file labeled with a 0-4 at the beginning
