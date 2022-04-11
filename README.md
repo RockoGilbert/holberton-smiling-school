@@ -4,6 +4,11 @@
 # Contents:
 This repository contains three different web pages designed using HTML and Boostrap exclusively from a given figma board...
 
+
+## Here are the final results
+![Headphones](images/wireframe.jpg "Headphones")
+
+
 Figma boards:
 * https://www.figma.com/file/ivg3abH1HLmMayBgjGg1Qf/Courses
 * https://www.figma.com/file/QYQqMYbdpAHL5xTclwJKSI/Homepage
