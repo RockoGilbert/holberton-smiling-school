@@ -1,309 +1,379 @@
-/* Variables
-  ============================= */
+/* Variables============================= */
 
-  :root {
+:root {
     --colormagenta: #c271ff;
     --colorDeepBlue: #071629;
-  }
-  
-  @font-face {
-    font-family: 'icomoon';
-    src: url('fonts/holberton_school-icon.eot');
-    src: url('fonts/holberton_school-icon.ttf') format('embedded-opentype'),
-      url('fonts/holberton_school-icon.ttf') format('truetype'),
-      url('fonts/holberton_school-icon.woff') format('woff'),
-      url('fonts/holberton_school-icon.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'holberton_school-icon';
+    src: url('fonts/holberton_school-icon.eot?sq4eq4');
+    src: url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+        url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+        url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+        url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
     font-weight: normal;
     font-style: normal;
-  }
-  
-  /* General
-    ============================== */
-  
-  body {
-    font-family: 'Source Sans Pro', 'Coiny';
-  }
-  
-  .font-smileschool {
-    font-family: 'Coiny';
-    font-size: 32px;
-  }
-  
-  .backPageColor {
-    background: var(--colormagenta) !important;
-  }
-  
-  .backPageColor2 {
-    background: var(--colorDeepBlue);
-  }
-  
-  .btn-primary:hover {
-    opacity: 0.9;
-  }
-  
-  .featuredTxt {
-    color: var(--colormagenta);
-  }
-  
-  .h2Page {
-    font-size: 32px;
-  }
-  
-  .h3Page {
-    font-size: 18px;
-  }
-  
-  .mix-blend {
-    mix-blend-mode: soft-light;
-  }
-  
-  .opt {
-    opacity: 0.5;
-  }
-  
-  /* Icons */
-  
-  [class^='icon'],
-  [class*=' icon'] {
-    font-family: 'icomoon' !important;
+    font-display: block;
+}
+
+[class^="holberton_school-icon-"],
+[class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
+
+    /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 2rem;
-    color: white;
-  }
-  
-  .iconMenu-facebook::before {
-    content: '\e908';
-  }
-  
-  .iconMenu-twitter::before {
-    content: '\e90f';
-  }
-  
-  .iconMenu-instagram::before {
-    content: '\e90a';
-  }
-  
-  .iconCheck::before {
-    content: '\e905';
-    color: #82d24f;
-  }
-  
-  .iconSearch::before {
-    content: '\e912';
-  }
-  
-  li {
+}
+
+.holberton_school-icon-arrow_1:before {
+    content: "\e900";
+}
+
+.holberton_school-icon-arrow_2:before {
+    content: "\e901";
+}
+
+.holberton_school-icon-arrow_3:before {
+    content: "\e902";
+}
+
+.holberton_school-icon-arrow_4:before {
+    content: "\e903";
+}
+
+.holberton_school-icon-arrow_5:before {
+    content: "\e904";
+}
+
+.holberton_school-icon-check:before {
+    content: "\e905";
+}
+
+.holberton_school-icon-ic_bag:before {
+    content: "\e906";
+}
+
+.holberton_school-icon-ic_cart:before {
+    content: "\e907";
+}
+
+.holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+}
+
+.holberton_school-icon-ic_hearing:before {
+    content: "\e909";
+}
+
+.holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+}
+
+.holberton_school-icon-ic_laptop:before {
+    content: "\e90b";
+}
+
+.holberton_school-icon-ic_money:before {
+    content: "\e90c";
+}
+
+.holberton_school-icon-ic_music:before {
+    content: "\e90d";
+}
+
+.holberton_school-icon-ic_sound:before {
+    content: "\e90e";
+}
+
+.holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+}
+
+.holberton_school-icon-ic_video:before {
+    content: "\e910";
+}
+
+.holberton_school-icon-menu:before {
+    content: "\e911";
+}
+
+.holberton_school-icon-search_1:before {
+    content: "\e912";
+}
+
+.holberton_school-icon-search_2:before {
+    content: "\e913";
+}
+
+.holberton_school-icon-star:before {
+    content: "\e914";
+}
+
+
+
+
+/* General
+  ============================== */
+
+body {
+    font-family: 'Source Sans Pro', 'Coiny';
+}
+
+.font-smileschool {
+    font-family: 'Coiny';
+    font-size: 32px;
+}
+
+.backPageColor {
+    background: var(--colormagenta) !important;
+}
+
+.backPageColor2 {
+    background: var(--colorDeepBlue);
+    min-height: 290px;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.featuredTxt {
+    color: var(--colormagenta);
+}
+
+.h2Page {
+    font-size: 32px;
+}
+
+.h3Page {
+    font-size: 18px;
+}
+
+.mix-blend {
+    mix-blend-mode: soft-light;
+}
+
+.opt {
+    opacity: 0.5;
+}
+
+
+li {
     list-style: none;
-  }
-  
-  .borderB {
+}
+
+.borderB {
     border-bottom: 1px solid white;
-  }
-  
-  /* header
-    ============================== */
-  
-  .logoSmile {
+}
+
+/* header
+  ============================== */
+
+.logoSmile {
     text-indent: -99999px;
     width: 36.39px;
     height: 29.46px;
     background: url(images/smile_off.png) 0 0 no-repeat;
     display: block;
     background-size: cover;
-  }
-  
-  .logo {
+}
+
+.logo {
     text-indent: -99999px;
     width: 112.83px;
     height: 20px;
     background: url(images/logo.png) 0 0 no-repeat;
     display: block;
     background-size: cover;
-  }
-  
-  /* top hero
-    ============================== */
-  
-  .imgHero {
+}
+
+/* top hero
+  ============================== */
+
+.imgHero {
     background: url('images/pic_1.jpg') center center no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 1093px;
     position: relative;
-  }
-  
-  /* hidden menu
-    ============================== */
-  
-  .iconMenu::before {
+}
+
+/* hidden menu
+  ============================== */
+
+.iconMenu::before {
     content: '\e911';
     font-size: 2rem;
-  }
-  
-  /* content hero
-    ============================== */
-  
-  .heroTitle {
+}
+
+/* content hero
+  ============================== */
+
+.heroTitle {
     font-size: 120px;
-  }
-  
-  .btn-primary {
+}
+
+.btn-primary {
     font-weight: 600;
     font-size: 14px;
-  }
-  
-  .rounded {
+}
+
+.rounded {
     border-radius: 30px !important;
-  }
-  
-  .imgPorfolio {
+}
+
+.imgPorfolio {
     width: 150px;
     height: 150px;
-  }
-  
-  /* Carousel
-  ============================== */
-  
-  .imgCarousel {
+}
+
+/* Carousel
+============================== */
+
+.imgCarousel {
     width: 160px;
     height: 160px;
-  }
-  
-  img.p-arrow-icon,
-  img.n-arrow-icon {
+}
+
+img.p-arrow-icon,
+img.n-arrow-icon {
     width: 29.04px;
     height: 62.67px;
-  }
-  
-  .carousel_section .font-italic {
+}
+
+.carousel_section .font-italic {
     font-size: 22px;
     line-height: 34px;
     max-width: 730px;
-  }
-  
-  .carousel_section .font-weight-bold {
+}
+
+.carousel_section .font-weight-bold {
     font-size: 22px;
     line-height: 34px;
-  }
-  
-  /* Carousel card
-  ============================== */
-  
-  .iconPlay {
+}
+
+/* Carousel card
+============================== */
+
+.iconPlay {
     width: 64px;
     height: 64px;
-  }
-  
-  .ctime {
+}
+
+.ctime {
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 27px;
-  }
-  
-  .card_user {
+}
+
+.card_user {
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 27px;
-  }
-  
-  .img_user {
+}
+
+.img_user {
     width: 30px;
-  }
-  
-  .card {
+}
+
+.card {
     border: none;
-  }
-  
-  /* Free membership
-  ============================== */
-  
-  .freem_img {
+}
+
+/* Free membership
+============================== */
+
+.freem_img {
     width: 45px;
-  }
-  
-  .freem_title {
+}
+
+.freem_title {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
-  }
-  
-  .freem_p {
+}
+
+.freem_p {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 26px;
-  }
-  
-  /* top hero pricing
-  ============================== */
-  
-  .imgHeroPricing {
+}
+
+/* top hero pricing
+============================== */
+
+.imgHeroPricing {
     background: url('images/pic_2.jpg') center center no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 1093px;
     position: relative;
-  }
-  
-  .heroTitlePricing {
+}
+
+.heroTitlePricing {
     font-size: 60px;
-  }
-  
-  .logoHeroPricing {
+}
+
+.logoHeroPricing {
     width: 37px;
     height: 30px;
-  }
-  
-  .contetHeroPricing {
+}
+
+.contetHeroPricing {
     top: 23%;
     left: 50%;
     transform: translateX(-50%);
-  }
-  
-  .totalPrice {
+}
+
+.totalPrice {
     font-size: 44px;
-  }
-  
-  /* top hero courses
-  ============================== */
-  
-  .imgHeroCourses {
+}
+
+/* top hero courses
+============================== */
+
+.imgHeroCourses {
     background: url('images/pic_3.jpg') center center no-repeat;
     background-size: cover;
     width: 100%;
     position: relative;
     padding: 0 0 30px 0;
-  }
-  
-  .place-holder::placeholder {
+}
+
+.place-holder::placeholder {
     color: #fff;
-  }
-  
-  .bg-smile-input {
+}
+
+.bg-smile-input {
     background-color: #d89df9;
-  }
-  
-  /* footer
-    ============================== */
-  
-  .s_icon {
-    font-size: 30px;
-  }
-  
-  .f_icons {
-    width: 130px;
-  }
-  
-  .f_copyright {
+}
+
+/* footer
+  ============================== */
+
+.my-footer {
+    background-color: #071629;
+    height: 200px;
+}
+
+.col {
+    font-size: 28px;
+    color: white;
+}
+
+.f_copyright {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -311,13 +381,18 @@
     color: #ffffff;
     mix-blend-mode: normal;
     opacity: 0.35;
-  }
-  
-  /* content hero
-    ============================== */
-  
-  @media only screen and (max-width: 683px) {
+}
+
+.p {
+    width: 96px;
+    height: 15px;
+}
+
+/* content hero
+  ============================== */
+
+@media only screen and (max-width: 683px) {
     .heroTitle {
-      font-size: 61px;
+        font-size: 61px;
     }
-  }
+}
